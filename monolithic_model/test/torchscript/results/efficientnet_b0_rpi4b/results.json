@@ -1,0 +1,21 @@
+{
+    "overall_accuracy": 0.8646660212971926,
+    "hardware": {
+        "device": "Raspberry Pi 4B",
+        "soc": "Broadcom BCM2711",
+        "cpu": "Cortex-A72 (ARMv8) 64-bit @ 1.5GHz",
+        "cpu_cores": 4,
+        "ram": "4GB LPDDR4-3200",
+        "inference_backend": "TorchScript CUDA",
+        "torch_threads": 0
+    },
+    "inference_time": {
+        "total_time_seconds": 5.7422754764556885,
+        "total_samples": 5165,
+        "avg_batch_time_ms": 2.6765412221383014,
+        "std_batch_time_ms": 1.659368428840051,
+        "avg_sample_time_ms": 1.1117667911821276,
+        "throughput_samples_per_sec": 899.4692123666625
+    },
+    "num_samples": 5165
+}

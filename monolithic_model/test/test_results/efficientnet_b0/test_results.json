@@ -1,0 +1,12 @@
+{
+    "overall_accuracy": 0.8648596321393998,
+    "inference_time": {
+        "total_time_seconds": 69.95448350906372,
+        "total_samples": 5165,
+        "avg_batch_time_ms": 52.47309425666975,
+        "std_batch_time_ms": 4.381242296647169,
+        "avg_sample_time_ms": 13.543946468356964,
+        "throughput_samples_per_sec": 73.8337236001577
+    },
+    "num_samples": 5165
+}

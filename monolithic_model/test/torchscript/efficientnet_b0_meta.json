@@ -1,0 +1,32 @@
+{
+    "class_names": [
+        "dry_asphalt_severe",
+        "dry_asphalt_slight",
+        "dry_asphalt_smooth",
+        "dry_concrete_severe",
+        "dry_concrete_slight",
+        "dry_concrete_smooth",
+        "dry_gravel",
+        "dry_mud",
+        "fresh_snow",
+        "ice",
+        "melted_snow",
+        "water_asphalt_severe",
+        "water_asphalt_slight",
+        "water_asphalt_smooth",
+        "water_concrete_severe",
+        "water_concrete_slight",
+        "water_concrete_smooth",
+        "water_gravel",
+        "water_mud",
+        "wet_asphalt_severe",
+        "wet_asphalt_slight",
+        "wet_asphalt_smooth",
+        "wet_concrete_severe",
+        "wet_concrete_slight",
+        "wet_concrete_smooth",
+        "wet_gravel",
+        "wet_mud"
+    ],
+    "best_val_acc": 0.8648595943837754
+}

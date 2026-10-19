@@ -1,0 +1,224 @@
+2026-02-21 19:20:30,274 - INFO - Loading pretrained weights from Hugging Face hub (timm/efficientnet_b0.ra_in1k)
+2026-02-21 19:20:30,486 - INFO - HTTP Request: HEAD https://huggingface.co/timm/efficientnet_b0.ra_in1k/resolve/main/model.safetensors "HTTP/1.1 302 Found"
+2026-02-21 19:20:30,488 - INFO - [timm/efficientnet_b0.ra_in1k] Safe alternative available for 'pytorch_model.bin' (as 'model.safetensors'). Loading weights using safetensors.
+2026-02-21 19:20:30,734 - INFO - Classes: ['dry_asphalt_severe', 'dry_asphalt_slight', 'dry_asphalt_smooth', 'dry_concrete_severe', 'dry_concrete_slight', 'dry_concrete_smooth', 'dry_gravel', 'dry_mud', 'fresh_snow', 'ice', 'melted_snow', 'water_asphalt_severe', 'water_asphalt_slight', 'water_asphalt_smooth', 'water_concrete_severe', 'water_concrete_slight', 'water_concrete_smooth', 'water_gravel', 'water_mud', 'wet_asphalt_severe', 'wet_asphalt_slight', 'wet_asphalt_smooth', 'wet_concrete_severe', 'wet_concrete_slight', 'wet_concrete_smooth', 'wet_gravel', 'wet_mud']
+2026-02-21 19:20:30,735 - INFO - Dataset sizes - Train: 41111, Val: 5128
+2026-02-21 19:20:30,735 - INFO - Device: cuda
+2026-02-21 19:20:30,735 - INFO - Number of workers: 14
+2026-02-21 19:20:30,747 - INFO - 
+Epoch 1/300
+2026-02-21 19:20:30,747 - INFO - ------------------------------------------------------------
+2026-02-21 19:22:04,595 - INFO - train Loss: 1.2530 Acc: 0.5994
+2026-02-21 19:22:11,466 - INFO - val Loss: 0.9393 Acc: 0.6899
+2026-02-21 19:22:11,566 - INFO - ✓ Validation improved. Saved model to pth/efficientnet_b0/efficientnet_b0_300e_224x224.pth
+2026-02-21 19:22:11,566 - INFO - Current learning rates: [0.001]
+2026-02-21 19:22:11,566 - INFO - Early stopping: Initial validation accuracy: 0.6899
+2026-02-21 19:22:11,566 - INFO - 
+Epoch 2/300
+2026-02-21 19:22:11,566 - INFO - ------------------------------------------------------------
+2026-02-21 19:23:21,515 - INFO - train Loss: 0.8999 Acc: 0.7015
+2026-02-21 19:23:24,877 - INFO - val Loss: 0.7713 Acc: 0.7383
+2026-02-21 19:23:25,018 - INFO - ✓ Validation improved. Saved model to pth/efficientnet_b0/efficientnet_b0_300e_224x224.pth
+2026-02-21 19:23:25,018 - INFO - Current learning rates: [0.001]
+2026-02-21 19:23:25,018 - INFO - Early stopping: Validation accuracy improved to 0.7383
+2026-02-21 19:23:25,018 - INFO - 
+Epoch 3/300
+2026-02-21 19:23:25,018 - INFO - ------------------------------------------------------------
+2026-02-21 19:24:37,046 - INFO - train Loss: 0.7892 Acc: 0.7346
+2026-02-21 19:24:40,224 - INFO - val Loss: 0.6950 Acc: 0.7728
+2026-02-21 19:24:40,365 - INFO - ✓ Validation improved. Saved model to pth/efficientnet_b0/efficientnet_b0_300e_224x224.pth
+2026-02-21 19:24:40,365 - INFO - Current learning rates: [0.001]
+2026-02-21 19:24:40,366 - INFO - Early stopping: Validation accuracy improved to 0.7728
+2026-02-21 19:24:40,366 - INFO - 
+Epoch 4/300
+2026-02-21 19:24:40,366 - INFO - ------------------------------------------------------------
+2026-02-21 19:25:49,431 - INFO - train Loss: 0.7184 Acc: 0.7573
+2026-02-21 19:25:52,664 - INFO - val Loss: 0.6536 Acc: 0.7888
+2026-02-21 19:25:52,837 - INFO - ✓ Validation improved. Saved model to pth/efficientnet_b0/efficientnet_b0_300e_224x224.pth
+2026-02-21 19:25:52,837 - INFO - Current learning rates: [0.001]
+2026-02-21 19:25:52,837 - INFO - Early stopping: Validation accuracy improved to 0.7888
+2026-02-21 19:25:52,837 - INFO - 
+Epoch 5/300
+2026-02-21 19:25:52,837 - INFO - ------------------------------------------------------------
+2026-02-21 19:27:00,977 - INFO - train Loss: 0.6731 Acc: 0.7711
+2026-02-21 19:27:04,000 - INFO - val Loss: 0.6147 Acc: 0.7939
+2026-02-21 19:27:04,133 - INFO - ✓ Validation improved. Saved model to pth/efficientnet_b0/efficientnet_b0_300e_224x224.pth
+2026-02-21 19:27:04,133 - INFO - Current learning rates: [0.001]
+2026-02-21 19:27:04,133 - INFO - Early stopping: Validation accuracy improved to 0.7939
+2026-02-21 19:27:04,133 - INFO - 
+Epoch 6/300
+2026-02-21 19:27:04,133 - INFO - ------------------------------------------------------------
+2026-02-21 19:28:11,613 - INFO - train Loss: 0.6339 Acc: 0.7837
+2026-02-21 19:28:14,673 - INFO - val Loss: 0.5880 Acc: 0.8009
+2026-02-21 19:28:14,812 - INFO - ✓ Validation improved. Saved model to pth/efficientnet_b0/efficientnet_b0_300e_224x224.pth
+2026-02-21 19:28:14,812 - INFO - Current learning rates: [0.001]
+2026-02-21 19:28:14,812 - INFO - Early stopping: Validation accuracy improved to 0.8009
+2026-02-21 19:28:14,813 - INFO - 
+Epoch 7/300
+2026-02-21 19:28:14,813 - INFO - ------------------------------------------------------------
+2026-02-21 19:29:22,619 - INFO - train Loss: 0.5963 Acc: 0.7956
+2026-02-21 19:29:25,796 - INFO - val Loss: 0.5637 Acc: 0.8091
+2026-02-21 19:29:25,932 - INFO - ✓ Validation improved. Saved model to pth/efficientnet_b0/efficientnet_b0_300e_224x224.pth
+2026-02-21 19:29:25,932 - INFO - Current learning rates: [0.001]
+2026-02-21 19:29:25,932 - INFO - Early stopping: Validation accuracy improved to 0.8091
+2026-02-21 19:29:25,932 - INFO - 
+Epoch 8/300
+2026-02-21 19:29:25,933 - INFO - ------------------------------------------------------------
+2026-02-21 19:30:33,784 - INFO - train Loss: 0.5636 Acc: 0.8046
+2026-02-21 19:30:36,915 - INFO - val Loss: 0.5754 Acc: 0.8126
+2026-02-21 19:30:37,055 - INFO - ✓ Validation improved. Saved model to pth/efficientnet_b0/efficientnet_b0_300e_224x224.pth
+2026-02-21 19:30:37,055 - INFO - Current learning rates: [0.001]
+2026-02-21 19:30:37,055 - INFO - Early stopping: Validation accuracy improved to 0.8126
+2026-02-21 19:30:37,055 - INFO - 
+Epoch 9/300
+2026-02-21 19:30:37,055 - INFO - ------------------------------------------------------------
+2026-02-21 19:31:44,765 - INFO - train Loss: 0.5406 Acc: 0.8131
+2026-02-21 19:31:47,995 - INFO - val Loss: 0.6036 Acc: 0.7995
+2026-02-21 19:31:47,995 - INFO - Current learning rates: [0.001]
+2026-02-21 19:31:47,995 - INFO - Early stopping counter: 1 out of 8
+2026-02-21 19:31:47,995 - INFO - 
+Epoch 10/300
+2026-02-21 19:31:47,995 - INFO - ------------------------------------------------------------
+2026-02-21 19:32:59,254 - INFO - train Loss: 0.5111 Acc: 0.8214
+2026-02-21 19:33:02,365 - INFO - val Loss: 0.5304 Acc: 0.8210
+2026-02-21 19:33:02,498 - INFO - ✓ Validation improved. Saved model to pth/efficientnet_b0/efficientnet_b0_300e_224x224.pth
+2026-02-21 19:33:02,498 - INFO - Current learning rates: [0.001]
+2026-02-21 19:33:02,498 - INFO - Early stopping: Validation accuracy improved to 0.8210
+2026-02-21 19:33:02,498 - INFO - 
+Epoch 11/300
+2026-02-21 19:33:02,498 - INFO - ------------------------------------------------------------
+2026-02-21 19:34:10,973 - INFO - train Loss: 0.4922 Acc: 0.8277
+2026-02-21 19:34:14,120 - INFO - val Loss: 0.5218 Acc: 0.8214
+2026-02-21 19:34:14,254 - INFO - ✓ Validation improved. Saved model to pth/efficientnet_b0/efficientnet_b0_300e_224x224.pth
+2026-02-21 19:34:14,254 - INFO - Current learning rates: [0.001]
+2026-02-21 19:34:14,254 - INFO - Early stopping counter: 1 out of 8
+2026-02-21 19:34:14,254 - INFO - 
+Epoch 12/300
+2026-02-21 19:34:14,254 - INFO - ------------------------------------------------------------
+2026-02-21 19:35:22,202 - INFO - train Loss: 0.4716 Acc: 0.8344
+2026-02-21 19:35:25,393 - INFO - val Loss: 0.5323 Acc: 0.8284
+2026-02-21 19:35:25,530 - INFO - ✓ Validation improved. Saved model to pth/efficientnet_b0/efficientnet_b0_300e_224x224.pth
+2026-02-21 19:35:25,530 - INFO - Current learning rates: [0.001]
+2026-02-21 19:35:25,530 - INFO - Early stopping: Validation accuracy improved to 0.8284
+2026-02-21 19:35:25,530 - INFO - 
+Epoch 13/300
+2026-02-21 19:35:25,530 - INFO - ------------------------------------------------------------
+2026-02-21 19:36:33,695 - INFO - train Loss: 0.4429 Acc: 0.8464
+2026-02-21 19:36:36,851 - INFO - val Loss: 0.5843 Acc: 0.8184
+2026-02-21 19:36:36,851 - INFO - Current learning rates: [0.001]
+2026-02-21 19:36:36,851 - INFO - Early stopping counter: 1 out of 8
+2026-02-21 19:36:36,851 - INFO - 
+Epoch 14/300
+2026-02-21 19:36:36,851 - INFO - ------------------------------------------------------------
+2026-02-21 19:37:44,843 - INFO - train Loss: 0.4268 Acc: 0.8488
+2026-02-21 19:37:48,022 - INFO - val Loss: 0.5703 Acc: 0.8206
+2026-02-21 19:37:48,022 - INFO - Current learning rates: [0.001]
+2026-02-21 19:37:48,022 - INFO - Early stopping counter: 2 out of 8
+2026-02-21 19:37:48,022 - INFO - 
+Epoch 15/300
+2026-02-21 19:37:48,022 - INFO - ------------------------------------------------------------
+2026-02-21 19:38:56,060 - INFO - train Loss: 0.4104 Acc: 0.8548
+2026-02-21 19:38:59,249 - INFO - val Loss: 0.5793 Acc: 0.8212
+2026-02-21 19:38:59,250 - INFO - Current learning rates: [0.001]
+2026-02-21 19:38:59,250 - INFO - Early stopping counter: 3 out of 8
+2026-02-21 19:38:59,250 - INFO - 
+Epoch 16/300
+2026-02-21 19:38:59,250 - INFO - ------------------------------------------------------------
+2026-02-21 19:40:07,189 - INFO - train Loss: 0.3961 Acc: 0.8594
+2026-02-21 19:40:10,216 - INFO - val Loss: 0.5545 Acc: 0.8278
+2026-02-21 19:40:10,216 - INFO - Current learning rates: [0.001]
+2026-02-21 19:40:10,216 - INFO - Early stopping counter: 4 out of 8
+2026-02-21 19:40:10,216 - INFO - 
+Epoch 17/300
+2026-02-21 19:40:10,216 - INFO - ------------------------------------------------------------
+2026-02-21 19:41:18,214 - INFO - train Loss: 0.3816 Acc: 0.8633
+2026-02-21 19:41:21,380 - INFO - val Loss: 0.6090 Acc: 0.8114
+2026-02-21 19:41:21,381 - INFO - Current learning rates: [0.001]
+2026-02-21 19:41:21,381 - INFO - Early stopping counter: 5 out of 8
+2026-02-21 19:41:21,381 - INFO - 
+Epoch 18/300
+2026-02-21 19:41:21,381 - INFO - ------------------------------------------------------------
+2026-02-21 19:42:29,556 - INFO - train Loss: 0.3661 Acc: 0.8686
+2026-02-21 19:42:32,680 - INFO - val Loss: 0.6021 Acc: 0.8259
+2026-02-21 19:42:32,681 - INFO - Current learning rates: [0.0001]
+2026-02-21 19:42:32,681 - INFO - Early stopping counter: 6 out of 8
+2026-02-21 19:42:32,681 - INFO - 
+Epoch 19/300
+2026-02-21 19:42:32,681 - INFO - ------------------------------------------------------------
+2026-02-21 19:43:42,356 - INFO - train Loss: 0.2435 Acc: 0.9131
+2026-02-21 19:43:45,617 - INFO - val Loss: 0.4758 Acc: 0.8582
+2026-02-21 19:43:45,748 - INFO - ✓ Validation improved. Saved model to pth/efficientnet_b0/efficientnet_b0_300e_224x224.pth
+2026-02-21 19:43:45,749 - INFO - Current learning rates: [0.0001]
+2026-02-21 19:43:45,749 - INFO - Early stopping: Validation accuracy improved to 0.8582
+2026-02-21 19:43:45,749 - INFO - 
+Epoch 20/300
+2026-02-21 19:43:45,749 - INFO - ------------------------------------------------------------
+2026-02-21 19:44:54,128 - INFO - train Loss: 0.1985 Acc: 0.9287
+2026-02-21 19:44:57,257 - INFO - val Loss: 0.4801 Acc: 0.8649
+2026-02-21 19:44:57,391 - INFO - ✓ Validation improved. Saved model to pth/efficientnet_b0/efficientnet_b0_300e_224x224.pth
+2026-02-21 19:44:57,391 - INFO - Current learning rates: [0.0001]
+2026-02-21 19:44:57,391 - INFO - Early stopping: Validation accuracy improved to 0.8649
+2026-02-21 19:44:57,391 - INFO - 
+Epoch 21/300
+2026-02-21 19:44:57,391 - INFO - ------------------------------------------------------------
+2026-02-21 19:46:05,035 - INFO - train Loss: 0.1786 Acc: 0.9368
+2026-02-21 19:46:08,124 - INFO - val Loss: 0.4900 Acc: 0.8625
+2026-02-21 19:46:08,124 - INFO - Current learning rates: [0.0001]
+2026-02-21 19:46:08,124 - INFO - Early stopping counter: 1 out of 8
+2026-02-21 19:46:08,124 - INFO - 
+Epoch 22/300
+2026-02-21 19:46:08,124 - INFO - ------------------------------------------------------------
+2026-02-21 19:47:15,902 - INFO - train Loss: 0.1682 Acc: 0.9388
+2026-02-21 19:47:19,011 - INFO - val Loss: 0.4962 Acc: 0.8641
+2026-02-21 19:47:19,011 - INFO - Current learning rates: [0.0001]
+2026-02-21 19:47:19,011 - INFO - Early stopping counter: 2 out of 8
+2026-02-21 19:47:19,011 - INFO - 
+Epoch 23/300
+2026-02-21 19:47:19,011 - INFO - ------------------------------------------------------------
+2026-02-21 19:48:26,926 - INFO - train Loss: 0.1552 Acc: 0.9450
+2026-02-21 19:48:30,033 - INFO - val Loss: 0.5060 Acc: 0.8627
+2026-02-21 19:48:30,034 - INFO - Current learning rates: [0.0001]
+2026-02-21 19:48:30,034 - INFO - Early stopping counter: 3 out of 8
+2026-02-21 19:48:30,034 - INFO - 
+Epoch 24/300
+2026-02-21 19:48:30,034 - INFO - ------------------------------------------------------------
+2026-02-21 19:49:37,938 - INFO - train Loss: 0.1475 Acc: 0.9479
+2026-02-21 19:49:41,098 - INFO - val Loss: 0.5165 Acc: 0.8619
+2026-02-21 19:49:41,098 - INFO - Current learning rates: [0.0001]
+2026-02-21 19:49:41,098 - INFO - Early stopping counter: 4 out of 8
+2026-02-21 19:49:41,098 - INFO - 
+Epoch 25/300
+2026-02-21 19:49:41,098 - INFO - ------------------------------------------------------------
+2026-02-21 19:50:48,723 - INFO - train Loss: 0.1416 Acc: 0.9483
+2026-02-21 19:50:51,880 - INFO - val Loss: 0.5253 Acc: 0.8627
+2026-02-21 19:50:51,880 - INFO - Current learning rates: [0.0001]
+2026-02-21 19:50:51,880 - INFO - Early stopping counter: 5 out of 8
+2026-02-21 19:50:51,880 - INFO - 
+Epoch 26/300
+2026-02-21 19:50:51,880 - INFO - ------------------------------------------------------------
+2026-02-21 19:51:59,671 - INFO - train Loss: 0.1360 Acc: 0.9505
+2026-02-21 19:52:02,842 - INFO - val Loss: 0.5318 Acc: 0.8647
+2026-02-21 19:52:02,842 - INFO - Current learning rates: [1e-05]
+2026-02-21 19:52:02,842 - INFO - Early stopping counter: 6 out of 8
+2026-02-21 19:52:02,842 - INFO - 
+Epoch 27/300
+2026-02-21 19:52:02,842 - INFO - ------------------------------------------------------------
+2026-02-21 19:53:10,668 - INFO - train Loss: 0.1244 Acc: 0.9558
+2026-02-21 19:53:13,837 - INFO - val Loss: 0.5242 Acc: 0.8649
+2026-02-21 19:53:13,837 - INFO - Current learning rates: [1e-05]
+2026-02-21 19:53:13,837 - INFO - Early stopping counter: 7 out of 8
+2026-02-21 19:53:13,837 - INFO - 
+Epoch 28/300
+2026-02-21 19:53:13,837 - INFO - ------------------------------------------------------------
+2026-02-21 19:54:21,476 - INFO - train Loss: 0.1227 Acc: 0.9555
+2026-02-21 19:54:24,677 - INFO - val Loss: 0.5331 Acc: 0.8639
+2026-02-21 19:54:24,677 - INFO - Current learning rates: [1e-05]
+2026-02-21 19:54:24,677 - INFO - Early stopping counter: 8 out of 8
+2026-02-21 19:54:24,677 - INFO - Early stopping triggered
+2026-02-21 19:54:25,132 - INFO - 
+Training complete in 33m 54s
+2026-02-21 19:54:25,132 - INFO - 
+Training complete in 33m 54s
+2026-02-21 19:54:25,132 - INFO - Best val Acc: 0.8649
+2026-02-21 19:54:25,173 - INFO - 
+✓ Saved final model to pth/efficientnet_b0/efficientnet_b0_300e_224x224_final.pth

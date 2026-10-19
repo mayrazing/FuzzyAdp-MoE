@@ -1,0 +1,34 @@
+{
+    "overall_accuracy": 0.8757018393030009,
+    "inference_time": {
+        "total_time_seconds": 74.29672598838806,
+        "total_samples": 5165,
+        "avg_batch_time_ms": 55.82779350664593,
+        "std_batch_time_ms": 2.4009457167252712,
+        "avg_sample_time_ms": 14.384651691846672,
+        "throughput_samples_per_sec": 69.5185411105093
+    },
+    "expert_usage": {
+        "expert_0": {
+            "usage_percentage": 20.36786060019361,
+            "activation_count": 2104
+        },
+        "expert_1": {
+            "usage_percentage": 21.364956437560505,
+            "activation_count": 2207
+        },
+        "expert_2": {
+            "usage_percentage": 20.135527589545017,
+            "activation_count": 2080
+        },
+        "expert_3": {
+            "usage_percentage": 18.24782187802517,
+            "activation_count": 1885
+        },
+        "expert_4": {
+            "usage_percentage": 19.883833494675702,
+            "activation_count": 2054
+        }
+    },
+    "num_samples": 5165
+}

@@ -1,0 +1,29 @@
+{
+    "overall_accuracy": 0.8766698935140368,
+    "model_config": {
+        "architecture": "MoE-EfficientNet-B0",
+        "num_experts": 5,
+        "top_k": 4,
+        "num_classes": 27,
+        "note": "After ONNX export the Router decisions are fused into the computation graph, expert activation frequency cannot be counted separately"
+    },
+    "hardware": {
+        "device": "Raspberry Pi 4B",
+        "soc": "Broadcom BCM2711",
+        "cpu": "Cortex-A72 (ARMv8) 64-bit @ 1.5GHz",
+        "cpu_cores": 4,
+        "ram": "4GB LPDDR4-3200",
+        "inference_backend": "ONNX Runtime CPU",
+        "ort_version": "1.24.2",
+        "intra_op_threads": 4
+    },
+    "inference_time": {
+        "total_time_seconds": 63.87291479110718,
+        "total_samples": 5165,
+        "avg_batch_time_ms": 39.525934786250346,
+        "std_batch_time_ms": 3.2489351393214014,
+        "avg_sample_time_ms": 12.366488826932658,
+        "throughput_samples_per_sec": 80.86369655889114
+    },
+    "num_samples": 5165
+}

@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+
+# Over GitHub's 100 MB per-file limit; distributed via GitHub Releases instead
+datasets/5%_RSCD.zip
+datasets/5%_RSCD/
+FuzzyAdp-MoE/pth/efficientnet_b0/efficientnet_b0_300e_224x224.pth
+MoE/pth/efficientnet_b0/efficientnet_b0_300e_224x224.pth

@@ -1,0 +1,112 @@
+============================================================
+MoE TorchScript power consumption test (Jetson edition)
+============================================================
+Hardware: Jetson_Orin_Nano
+Inference device: cuda
+Model path: ../moe_pi_optimized.pt
+Test data path: ../5%_RSCD/test
+Log path: power_consumption_log_Jetson_Orin_Nano.txt
+Heartbeat interval: 10s
+Start time: 2026-04-25 16:33:14
+============================================================
+Loading TorchScript model...
+Model loaded successfully
+Loading test data...
+Test samples: 5165
+
+GPU warm-up in progress...
+GPU warm-up done, starting continuous inference...
+
+============================================================
+MoE TorchScript power consumption test (Jetson edition)
+============================================================
+Hardware: Jetson_Orin_Nano
+Inference device: cuda
+Model path: ../moe_pi_optimized.pt
+Test data path: ../5%_RSCD/test
+Log path: power_consumption_log_Jetson_Orin_Nano.txt
+Heartbeat interval: 10s
+Start time: 2026-04-25 16:34:24
+============================================================
+Loading TorchScript model...
+Model loaded successfully
+Loading test data...
+Test samples: 5165
+
+GPU warm-up in progress...
+GPU warm-up done, starting continuous inference...
+
+[2026-04-25 16:34:42] heartbeat | Round 0001 | Elapsed 10s (0.00h) | Images processed 298 | Current power 5182mW (5.18W) | Running mean 5182.0mW (5.18W)
+[2026-04-25 16:34:52] heartbeat | Round 0001 | Elapsed 20s (0.01h) | Images processed 534 | Current power 5182mW (5.18W) | Running mean 5182.0mW (5.18W)
+[2026-04-25 16:35:02] heartbeat | Round 0001 | Elapsed 30s (0.01h) | Images processed 774 | Current power 5180mW (5.18W) | Running mean 5181.3mW (5.18W)
+[2026-04-25 16:35:12] heartbeat | Round 0001 | Elapsed 40s (0.01h) | Images processed 1015 | Current power 5180mW (5.18W) | Running mean 5181.0mW (5.18W)
+[2026-04-25 16:35:22] heartbeat | Round 0001 | Elapsed 50s (0.01h) | Images processed 1258 | Current power 5180mW (5.18W) | Running mean 5180.8mW (5.18W)
+[2026-04-25 16:35:32] heartbeat | Round 0001 | Elapsed 60s (0.02h) | Images processed 1495 | Current power 5180mW (5.18W) | Running mean 5180.7mW (5.18W)
+[2026-04-25 16:35:42] heartbeat | Round 0001 | Elapsed 70s (0.02h) | Images processed 1743 | Current power 5180mW (5.18W) | Running mean 5180.6mW (5.18W)
+[2026-04-25 16:35:52] heartbeat | Round 0001 | Elapsed 80s (0.02h) | Images processed 1995 | Current power 5180mW (5.18W) | Running mean 5180.5mW (5.18W)
+[2026-04-25 16:36:02] heartbeat | Round 0001 | Elapsed 90s (0.03h) | Images processed 2247 | Current power 5180mW (5.18W) | Running mean 5180.4mW (5.18W)
+[2026-04-25 16:36:12] heartbeat | Round 0001 | Elapsed 100s (0.03h) | Images processed 2497 | Current power 5180mW (5.18W) | Running mean 5180.4mW (5.18W)
+[2026-04-25 16:36:22] heartbeat | Round 0001 | Elapsed 110s (0.03h) | Images processed 2747 | Current power 5180mW (5.18W) | Running mean 5180.4mW (5.18W)
+[2026-04-25 16:36:32] heartbeat | Round 0001 | Elapsed 120s (0.03h) | Images processed 2994 | Current power 5180mW (5.18W) | Running mean 5180.3mW (5.18W)
+[2026-04-25 16:36:42] heartbeat | Round 0001 | Elapsed 130s (0.04h) | Images processed 3240 | Current power 5180mW (5.18W) | Running mean 5180.3mW (5.18W)
+[2026-04-25 16:36:52] heartbeat | Round 0001 | Elapsed 140s (0.04h) | Images processed 3486 | Current power 5180mW (5.18W) | Running mean 5180.3mW (5.18W)
+[2026-04-25 16:37:02] heartbeat | Round 0001 | Elapsed 150s (0.04h) | Images processed 3729 | Current power 5261mW (5.26W) | Running mean 5185.7mW (5.19W)
+[2026-04-25 16:37:12] heartbeat | Round 0001 | Elapsed 160s (0.04h) | Images processed 3972 | Current power 5180mW (5.18W) | Running mean 5185.3mW (5.19W)
+[2026-04-25 16:37:22] heartbeat | Round 0001 | Elapsed 170s (0.05h) | Images processed 4213 | Current power 5180mW (5.18W) | Running mean 5185.0mW (5.18W)
+[2026-04-25 16:37:32] heartbeat | Round 0001 | Elapsed 180s (0.05h) | Images processed 4457 | Current power 5220mW (5.22W) | Running mean 5186.9mW (5.19W)
+[2026-04-25 16:37:42] heartbeat | Round 0001 | Elapsed 190s (0.05h) | Images processed 4698 | Current power 5180mW (5.18W) | Running mean 5186.6mW (5.19W)
+[2026-04-25 16:37:52] heartbeat | Round 0001 | Elapsed 200s (0.06h) | Images processed 4939 | Current power 5261mW (5.26W) | Running mean 5190.3mW (5.19W)
+[2026-04-25 16:37:59] Round 0001 | Round duration 209.8s | Elapsed 210s (0.06h)
+[2026-04-25 16:38:02] heartbeat | Round 0002 | Elapsed 210s (0.06h) | Images processed 5181 | Current power 5261mW (5.26W) | Running mean 5193.7mW (5.19W)
+[2026-04-25 16:38:12] heartbeat | Round 0002 | Elapsed 220s (0.06h) | Images processed 5433 | Current power 5261mW (5.26W) | Running mean 5196.7mW (5.20W)
+[2026-04-25 16:38:22] heartbeat | Round 0002 | Elapsed 230s (0.06h) | Images processed 5685 | Current power 5220mW (5.22W) | Running mean 5197.7mW (5.20W)
+[2026-04-25 16:38:32] heartbeat | Round 0002 | Elapsed 240s (0.07h) | Images processed 5936 | Current power 5261mW (5.26W) | Running mean 5200.4mW (5.20W)
+[2026-04-25 16:38:42] heartbeat | Round 0002 | Elapsed 250s (0.07h) | Images processed 6191 | Current power 5220mW (5.22W) | Running mean 5201.2mW (5.20W)
+[2026-04-25 16:38:52] heartbeat | Round 0002 | Elapsed 260s (0.07h) | Images processed 6444 | Current power 5180mW (5.18W) | Running mean 5200.3mW (5.20W)
+[2026-04-25 16:39:02] heartbeat | Round 0002 | Elapsed 270s (0.08h) | Images processed 6693 | Current power 5180mW (5.18W) | Running mean 5199.6mW (5.20W)
+[2026-04-25 16:39:12] heartbeat | Round 0002 | Elapsed 280s (0.08h) | Images processed 6943 | Current power 5180mW (5.18W) | Running mean 5198.9mW (5.20W)
+[2026-04-25 16:39:22] heartbeat | Round 0002 | Elapsed 290s (0.08h) | Images processed 7195 | Current power 5180mW (5.18W) | Running mean 5198.2mW (5.20W)
+[2026-04-25 16:39:32] heartbeat | Round 0002 | Elapsed 300s (0.08h) | Images processed 7451 | Current power 5180mW (5.18W) | Running mean 5197.6mW (5.20W)
+[2026-04-25 16:39:42] heartbeat | Round 0002 | Elapsed 310s (0.09h) | Images processed 7701 | Current power 5180mW (5.18W) | Running mean 5197.1mW (5.20W)
+[2026-04-25 16:39:52] heartbeat | Round 0002 | Elapsed 320s (0.09h) | Images processed 7954 | Current power 5180mW (5.18W) | Running mean 5196.5mW (5.20W)
+[2026-04-25 16:40:02] heartbeat | Round 0002 | Elapsed 331s (0.09h) | Images processed 8206 | Current power 5180mW (5.18W) | Running mean 5196.0mW (5.20W)
+[2026-04-25 16:40:12] heartbeat | Round 0002 | Elapsed 341s (0.09h) | Images processed 8459 | Current power 5180mW (5.18W) | Running mean 5195.6mW (5.20W)
+[2026-04-25 16:40:22] heartbeat | Round 0002 | Elapsed 351s (0.10h) | Images processed 8710 | Current power 5180mW (5.18W) | Running mean 5195.1mW (5.20W)
+[2026-04-25 16:40:32] heartbeat | Round 0002 | Elapsed 361s (0.10h) | Images processed 8961 | Current power 5180mW (5.18W) | Running mean 5194.7mW (5.19W)
+[2026-04-25 16:40:42] heartbeat | Round 0002 | Elapsed 371s (0.10h) | Images processed 9213 | Current power 5180mW (5.18W) | Running mean 5194.3mW (5.19W)
+[2026-04-25 16:40:52] heartbeat | Round 0002 | Elapsed 381s (0.11h) | Images processed 9466 | Current power 5180mW (5.18W) | Running mean 5193.9mW (5.19W)
+[2026-04-25 16:41:02] heartbeat | Round 0002 | Elapsed 391s (0.11h) | Images processed 9718 | Current power 5220mW (5.22W) | Running mean 5194.6mW (5.19W)
+[2026-04-25 16:41:12] heartbeat | Round 0002 | Elapsed 401s (0.11h) | Images processed 9970 | Current power 5180mW (5.18W) | Running mean 5194.2mW (5.19W)
+[2026-04-25 16:41:22] heartbeat | Round 0002 | Elapsed 411s (0.11h) | Images processed 10221 | Current power 5180mW (5.18W) | Running mean 5193.9mW (5.19W)
+[2026-04-25 16:41:26] Round 0002 | Round duration 206.3s | Elapsed 416s (0.12h)
+[2026-04-25 16:41:32] heartbeat | Round 0003 | Elapsed 421s (0.12h) | Images processed 10473 | Current power 5180mW (5.18W) | Running mean 5193.5mW (5.19W)
+[2026-04-25 16:41:42] heartbeat | Round 0003 | Elapsed 431s (0.12h) | Images processed 10725 | Current power 5180mW (5.18W) | Running mean 5193.2mW (5.19W)
+[2026-04-25 16:41:52] heartbeat | Round 0003 | Elapsed 441s (0.12h) | Images processed 10976 | Current power 5180mW (5.18W) | Running mean 5192.9mW (5.19W)
+[2026-04-25 16:42:02] heartbeat | Round 0003 | Elapsed 451s (0.13h) | Images processed 11227 | Current power 5180mW (5.18W) | Running mean 5192.6mW (5.19W)
+[2026-04-25 16:42:12] heartbeat | Round 0003 | Elapsed 461s (0.13h) | Images processed 11479 | Current power 5180mW (5.18W) | Running mean 5192.4mW (5.19W)
+[2026-04-25 16:42:22] heartbeat | Round 0003 | Elapsed 471s (0.13h) | Images processed 11732 | Current power 5180mW (5.18W) | Running mean 5192.1mW (5.19W)
+[2026-04-25 16:42:32] heartbeat | Round 0003 | Elapsed 481s (0.13h) | Images processed 11982 | Current power 5180mW (5.18W) | Running mean 5191.9mW (5.19W)
+[2026-04-25 16:42:42] heartbeat | Round 0003 | Elapsed 491s (0.14h) | Images processed 12229 | Current power 5180mW (5.18W) | Running mean 5191.6mW (5.19W)
+[2026-04-25 16:42:52] heartbeat | Round 0003 | Elapsed 501s (0.14h) | Images processed 12483 | Current power 5180mW (5.18W) | Running mean 5191.4mW (5.19W)
+[2026-04-25 16:43:02] heartbeat | Round 0003 | Elapsed 511s (0.14h) | Images processed 12736 | Current power 5180mW (5.18W) | Running mean 5191.2mW (5.19W)
+[2026-04-25 16:43:12] heartbeat | Round 0003 | Elapsed 521s (0.14h) | Images processed 12987 | Current power 5180mW (5.18W) | Running mean 5190.9mW (5.19W)
+[2026-04-25 16:43:22] heartbeat | Round 0003 | Elapsed 531s (0.15h) | Images processed 13238 | Current power 5180mW (5.18W) | Running mean 5190.7mW (5.19W)
+[2026-04-25 16:43:32] heartbeat | Round 0003 | Elapsed 541s (0.15h) | Images processed 13488 | Current power 5180mW (5.18W) | Running mean 5190.5mW (5.19W)
+[2026-04-25 16:43:42] heartbeat | Round 0003 | Elapsed 551s (0.15h) | Images processed 13743 | Current power 5180mW (5.18W) | Running mean 5190.3mW (5.19W)
+[2026-04-25 16:43:52] heartbeat | Round 0003 | Elapsed 561s (0.16h) | Images processed 13995 | Current power 5180mW (5.18W) | Running mean 5190.2mW (5.19W)
+[2026-04-25 16:44:02] heartbeat | Round 0003 | Elapsed 571s (0.16h) | Images processed 14248 | Current power 5180mW (5.18W) | Running mean 5190.0mW (5.19W)
+[2026-04-25 16:44:12] heartbeat | Round 0003 | Elapsed 581s (0.16h) | Images processed 14499 | Current power 5180mW (5.18W) | Running mean 5189.8mW (5.19W)
+[2026-04-25 16:44:22] heartbeat | Round 0003 | Elapsed 591s (0.16h) | Images processed 14752 | Current power 5220mW (5.22W) | Running mean 5190.3mW (5.19W)
+[2026-04-25 16:44:32] heartbeat | Round 0003 | Elapsed 601s (0.17h) | Images processed 15006 | Current power 5180mW (5.18W) | Running mean 5190.1mW (5.19W)
+[2026-04-25 16:44:42] heartbeat | Round 0003 | Elapsed 611s (0.17h) | Images processed 15257 | Current power 5220mW (5.22W) | Running mean 5190.6mW (5.19W)
+[2026-04-25 16:44:50] Round 0003 | Round duration 204.4s | Elapsed 621s (0.17h)
+
+============================================================
+Test complete
+Total rounds:         3
+Total images:         15495
+Total runtime:        620.5s (0.17h)
+Average power:        5190.6mW (5.19W)
+Per-image infer time: 25.03ms
+Per-image energy:     207.867mJ
+============================================================

@@ -1,0 +1,43 @@
+Overall test accuracy: 0.8802
+
+Inference time statistics:
+  Total inference time: 88.07s
+  Total samples: 5165
+  Average time per batch: 66.23ms ± 6.80ms
+  Average time per sample: 17.05ms
+  Throughput: 58.65 samples/s
+  Processor: Raspberry Pi 4B | BCM2711 Cortex-A72 @ 1.5GHz x4 | 4GB LPDDR4-3200 | CPU-only
+
+                       precision    recall  f1-score   support
+
+   dry_asphalt_severe     0.6744    0.6905    0.6824        42
+   dry_asphalt_slight     0.8431    0.8487    0.8459       152
+   dry_asphalt_smooth     0.9116    0.9070    0.9093       398
+  dry_concrete_severe     0.8889    0.8341    0.8606       211
+  dry_concrete_slight     0.6330    0.7113    0.6699        97
+  dry_concrete_smooth     0.9046    0.8645    0.8841       406
+           dry_gravel     0.9036    0.8982    0.9009       334
+              dry_mud     0.8914    0.9049    0.8981       263
+           fresh_snow     0.9896    0.9896    0.9896       385
+                  ice     0.9788    0.9652    0.9719       287
+          melted_snow     0.9845    0.9845    0.9845       322
+ water_asphalt_severe     0.5625    0.4737    0.5143        19
+ water_asphalt_slight     0.5333    0.4706    0.5000        34
+ water_asphalt_smooth     0.9261    0.9193    0.9227       409
+water_concrete_severe     0.7333    0.5789    0.6471        38
+water_concrete_slight     0.4545    0.5769    0.5085        26
+water_concrete_smooth     0.8108    0.7653    0.7874       196
+         water_gravel     0.7714    0.6585    0.7105        41
+            water_mud     0.8393    0.7460    0.7899        63
+   wet_asphalt_severe     0.7500    0.7500    0.7500        16
+   wet_asphalt_slight     0.8151    0.8500    0.8322       140
+   wet_asphalt_smooth     0.8688    0.9275    0.8972       414
+  wet_concrete_severe     0.6111    0.4400    0.5116        25
+  wet_concrete_slight     0.6250    0.7317    0.6742        41
+  wet_concrete_smooth     0.8194    0.8636    0.8409       352
+           wet_gravel     0.8429    0.8894    0.8655       199
+              wet_mud     0.8866    0.8588    0.8725       255
+
+             accuracy                         0.8802      5165
+            macro avg     0.7946    0.7814    0.7860      5165
+         weighted avg     0.8810    0.8802    0.8800      5165

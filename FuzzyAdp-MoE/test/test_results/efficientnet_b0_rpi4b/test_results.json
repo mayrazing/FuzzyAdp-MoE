@@ -1,0 +1,43 @@
+{
+    "overall_accuracy": 0.8801548886737657,
+    "hardware": {
+        "device": "Raspberry Pi 4B",
+        "soc": "Broadcom BCM2711",
+        "cpu": "Cortex-A72 (ARMv8) 64-bit @ 1.5GHz",
+        "cpu_cores": 4,
+        "ram": "4GB LPDDR4-3200",
+        "inference_backend": "PyTorch CPU (no GPU)",
+        "torch_threads": 4
+    },
+    "inference_time": {
+        "total_time_seconds": 88.06609654426575,
+        "total_samples": 5165,
+        "avg_batch_time_ms": 66.23264196856472,
+        "std_batch_time_ms": 6.80341018708834,
+        "avg_sample_time_ms": 17.05055112183267,
+        "throughput_samples_per_sec": 58.64913062660671
+    },
+    "expert_usage": {
+        "expert_0": {
+            "usage_percentage": 20.10648596321394,
+            "activation_count": 2077
+        },
+        "expert_1": {
+            "usage_percentage": 20.22265246853824,
+            "activation_count": 2089
+        },
+        "expert_2": {
+            "usage_percentage": 19.283639883833494,
+            "activation_count": 1992
+        },
+        "expert_3": {
+            "usage_percentage": 20.571151984511133,
+            "activation_count": 2125
+        },
+        "expert_4": {
+            "usage_percentage": 19.816069699903196,
+            "activation_count": 2047
+        }
+    },
+    "num_samples": 5165
+}

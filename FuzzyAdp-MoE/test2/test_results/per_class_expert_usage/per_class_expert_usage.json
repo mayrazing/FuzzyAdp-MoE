@@ -1,0 +1,26 @@
+{
+    "split": "test",
+    "dataset": "/home/zhiyong/Documents/metropolia_file/Bachelor_Thesis_(Smart_IoT_Systems)/project/MoE_test_002/dataset/5%_RSCD/test",
+    "model_path": "/home/zhiyong/Documents/metropolia_file/Bachelor_Thesis_(Smart_IoT_Systems)/project/MoE_test_002/compare_groups/phase_2_Ablation/4[88.02%]baseline+fuzzy_v1_from_3/test2/efficientnet_b0_300e_224x224_final.pth",
+    "num_samples": 5165,
+    "accuracy": 0.8801548886737657,
+    "best_val_acc_from_checkpoint": 0.8689547581903276,
+    "num_experts": 5,
+    "top_k": 2,
+    "usage_definition": "Hard Top-K activations per true class; each row normalized by class sample count * top_k.",
+    "elapsed_seconds": 9.405349016189575,
+    "overall_expert_usage_percent": {
+        "expert_0": 20.10648596321394,
+        "expert_1": 20.22265246853824,
+        "expert_2": 19.293320425943854,
+        "expert_3": 20.571151984511133,
+        "expert_4": 19.806389157792836
+    },
+    "row_sum_min": 99.99999999999999,
+    "row_sum_max": 100.00000000000001,
+    "outputs": {
+        "heatmap_png": "/home/zhiyong/Documents/metropolia_file/Bachelor_Thesis_(Smart_IoT_Systems)/project/MoE_test_002/compare_groups/phase_2_Ablation/4[88.02%]baseline+fuzzy_v1_from_3/test2/test_results/per_class_expert_usage/per_class_expert_usage_heatmap.png",
+        "usage_percent_csv": "/home/zhiyong/Documents/metropolia_file/Bachelor_Thesis_(Smart_IoT_Systems)/project/MoE_test_002/compare_groups/phase_2_Ablation/4[88.02%]baseline+fuzzy_v1_from_3/test2/test_results/per_class_expert_usage/per_class_expert_usage_percent.csv",
+        "usage_counts_csv": "/home/zhiyong/Documents/metropolia_file/Bachelor_Thesis_(Smart_IoT_Systems)/project/MoE_test_002/compare_groups/phase_2_Ablation/4[88.02%]baseline+fuzzy_v1_from_3/test2/test_results/per_class_expert_usage/per_class_expert_usage_counts.csv"
+    }
+}
